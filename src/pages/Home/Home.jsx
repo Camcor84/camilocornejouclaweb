@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 import Inset from "@/Common/PagesLayout/Inset.jsx";
+import Slideshow from "./Slideshow/Slideshow";
+import Tabbed from "./Tabbed/Tabbed";
 
 const Home = () => {
     return (
         <HomeStyled>
+            <h1>Home</h1>
+            <Slideshow />
             <Inset>
-                <h1>Home</h1>
+                <Tabbed />
             </Inset>
         </HomeStyled>
     );

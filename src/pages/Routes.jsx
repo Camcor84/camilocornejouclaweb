@@ -10,7 +10,7 @@ import PagesLayout from "@/Common/PagesLayout/PagesLayout.jsx";
 import { MediaQueryProvider } from "@/Common/useMediaQuery.jsx";
 
 // page components
-import Home from "./Home";
+import Home from "./Home/Home.jsx";
 import Staff from "./Staff/staff.jsx";
 import Contact from "./Contact";
 
@@ -19,6 +19,7 @@ import CourseWorkLayout from "./courseworks/CourseWorkLayout.jsx/";
 import SunAndMoon from "./courseworks/SunAndMoon/SunAndMoon.jsx";
 import Essays from "./courseworks/Essays/Essays.jsx";
 import ResponsiveDesign from "./courseworks/ResponsiveDesign.jsx";
+import Fundamentals from "./courseworks/Fundamentals/Fundamentals.jsx";
 
 const MyRoutes = () => {
     return (
@@ -42,6 +43,10 @@ const MyRoutes = () => {
                             <Route
                                 element={<ResponsiveDesign />}
                                 path="responsive"
+                            />
+                            <Route
+                                element={<Fundamentals />}
+                                path="javascript-fundamentals"
                             />
                         </Route>
                     </Route>

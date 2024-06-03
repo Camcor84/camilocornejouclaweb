@@ -99,12 +99,12 @@ Error generating stack: `+a.message+`
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #84d4d4;
+            border-bottom: solid 3px #2e2e2e;
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #84d4d4;
+            color: #252525;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
@@ -116,7 +116,7 @@ Error generating stack: `+a.message+`
             }
 
             &.active {
-                color: white;
+                color: #8b8989;
                 border-bottom-color: white;
             }
         }
@@ -889,7 +889,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     right: 20px;
 
     font-size: 30px;
-    color: white;
+    color: #2f2e2e;
 
     cursor: pointer;
 `,Fk=()=>{const[e,t]=_.useState(!1);return ee(Uk,{children:[C(Hv,{toggle:()=>{t(!e)}}),C(Ic,{}),e&&C(Nc,{onClick:()=>{t(!1)}})]})},Uk=W.div`
@@ -1041,7 +1041,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1rem;
-`,gx=()=>C(yx,{children:ee(jr,{children:[C("h1",{children:"Projects"}),C(hx,{})]})}),yx=W.div``,wx=()=>C(Sx,{children:C(jr,{children:C("h1",{children:"Contact"})})}),Sx=W.div``,kx=()=>C(xx,{children:ee(jr,{children:[C("h1",{children:"Course Work"}),ee("nav",{className:"sublinks",children:[C(qt,{to:"/course-work",end:!0,children:"Essays"}),C(qt,{to:"/course-work/sun-and-moon",children:"Sun And Moon"}),C(qt,{to:"/course-work/responsive",children:"Responsive"}),C(qt,{to:"/course-work/javascript-fundamentals",children:"Fundamentals"})]}),C(Ah,{})]})}),xx=W.div``,Ex="/camilocornejouclaweb/assets/sun-c36dd558.png",op="/camilocornejouclaweb/assets/moon-416834ef.png",Cx=()=>{const[e,t]=_.useState(op);return ee(Px,{children:[C("h2",{children:"Sun And Moon"}),C("img",{src:e,onMouseEnter:()=>{t(Ex)},onMouseLeave:()=>{t(op)}})]})},Px=W.div`
+`,gx=()=>C(yx,{children:ee(jr,{children:[C("h1",{children:"Projects"}),C(hx,{})]})}),yx=W.div``,wx=()=>C(Sx,{children:C(jr,{children:C("h1",{children:"Video"})})}),Sx=W.div``,kx=()=>C(xx,{children:ee(jr,{children:[C("h1",{children:"Course Work"}),ee("nav",{className:"sublinks",children:[C(qt,{to:"/course-work",end:!0,children:"Essays"}),C(qt,{to:"/course-work/sun-and-moon",children:"Sun And Moon"}),C(qt,{to:"/course-work/responsive",children:"Responsive"}),C(qt,{to:"/course-work/javascript-fundamentals",children:"Fundamentals"})]}),C(Ah,{})]})}),xx=W.div``,Ex="/camilocornejouclaweb/assets/sun-c36dd558.png",op="/camilocornejouclaweb/assets/moon-416834ef.png",Cx=()=>{const[e,t]=_.useState(op);return ee(Px,{children:[C("h2",{children:"Sun And Moon"}),C("img",{src:e,onMouseEnter:()=>{t(Ex)},onMouseLeave:()=>{t(op)}})]})},Px=W.div`
     text-align: center;
 
     h2 {

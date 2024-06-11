@@ -58,7 +58,7 @@ const SmallStyled = styled.div`
             padding: 10px;
             border-bottom: solid 1px #999999;
 
-            color: white;
+            color: #ffffff;
             text-decoration: none;
 
             &:hover,

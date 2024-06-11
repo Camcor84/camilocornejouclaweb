@@ -3,18 +3,23 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://Camcor84.github.io/camilocornejouclaweb",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "git push origin master && gh-pages -d build"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.5.2",
         "@fortawesome/free-solid-svg-icons": "^6.5.2",
         "@fortawesome/react-fontawesome": "^0.2.0",
+        "gh-pages": "^6.1.1",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-player": "^2.16.0",
         "react-responsive-carousel": "^3.2.23",
         "react-router-dom": "^6.22.3",
         "sass": "^1.75.0",

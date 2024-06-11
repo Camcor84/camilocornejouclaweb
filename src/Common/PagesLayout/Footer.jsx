@@ -1,31 +1,32 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 /* Components ---------------------------*/
-import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import Inset from "./Inset.jsx";
+import SiteLogo from "./SiteLogo/SiteLogo.jsx";
 
 const Footer = () => {
     return (
-        <FooterStyled className='Footer'>
+        <FooterStyled className="Footer">
             <Inset>
                 <div className="logo">
                     <SiteLogo />
                 </div>
                 <h2>
-                    CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO
+                    Camilo Cornejo, Graphic Designer, Colombia - USA,
+                    kamicornejo@gmail.com
                 </h2>
                 <div className="copyright">
-                    &copy; 2023. All rights reserved.
+                    &copy; 2024. UCLA, All rights reserved.
                 </div>
             </Inset>
         </FooterStyled>
     );
-}
+};
 
 export default Footer;
 
 const FooterStyled = styled.footer`
-    color: white;
+    color: #ffffff;
 
     padding: 20px 0px;
 
@@ -41,14 +42,13 @@ const FooterStyled = styled.footer`
     }
 
     h2 {
-        color: white;
+        color: #070707;
         margin: 5px 0px;
         font-size: 14px;
     }
 
     .copyright {
         font-size: 14px;
-        color: white;
+        color: #656363;
     }
-
 `;

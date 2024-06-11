@@ -25,7 +25,7 @@ const HamburgerStyled = styled.div`
     right: 20px;
 
     font-size: 30px;
-    color: white;
+    color: #2f2e2e;
 
     cursor: pointer;
 `;
